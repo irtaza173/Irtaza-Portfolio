@@ -5,10 +5,13 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "moduleResolution": "bundler",
-    "allowJs": true,
-    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
     "noEmit": true,
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "checkJs": false,
     "types": ["vite/client"]
   },
-  "include": ["src/**/*.js", "src/**/*.jsx", "vite.config.js"]
+  "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.d.ts", "vite.config.js"]
 }
